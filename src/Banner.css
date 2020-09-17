@@ -1,0 +1,58 @@
+.banner{
+    background:url("https://miro.medium.com/max/8400/1*lH5QyWjJ8lLLl-G_POna-Q.jpeg") center center no-repeat;
+    -webkit-background-size: cover;
+    height:54.7vh;
+    position:relative;
+}
+
+.banner__info{
+    background: black;
+    color:white;
+    padding-top:21vh;
+    padding-bottom:40px;
+    padding-right:50px;
+    padding-left:50px;
+    width:300px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.banner__info > button{
+    background-color:#ff7779;
+    color:white;
+    text-transform: inherit;
+    margin-top:20px;
+    font-weight:500;
+}
+
+.banner__info > h5{
+    margin-top:10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.banner__info > h1{
+    padding-bottom:10px;
+}
+
+.banner__info > button:hover{
+    background-color:white;
+    color:#ff7779;
+}
+
+
+.banner__searchButton{
+    background-color:white !important;
+    color:#ff7779 !important;
+    font-weight:900 !important;
+    text-transform:inherit !important;
+    font-family:'Ubuntu',sans-serif !important;
+}
+
+.banner__search{
+    display:flex;
+    flex-direction: column;
+    font-weight:400;
+}
+
+.banner__link{
+    text-decoration: none;
+}

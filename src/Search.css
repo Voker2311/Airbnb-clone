@@ -1,0 +1,52 @@
+.search {
+    position:absolute;
+    top:35px;
+    left:30%;
+    width:100vw;
+    font-family:'Ubuntu',sans-serif;
+    font-size:14px;
+    font-weight:500;
+}
+
+.search > h2 {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:8px;
+    width:560px;
+    margin-left:0px;
+    background-color: white;
+    position: absolute;
+    top:350px;
+    left:0;
+    font-family:'Ubuntu',sans-serif;
+}
+
+.search > input{
+    width:539px;
+    padding:20px;
+    position:absolute;
+    left:0;
+    height:30px;
+    top:390px;
+    border:none;
+    outline-width: 0;
+    font-size:13px;
+}
+
+
+.search > button{
+    position:absolute;
+    left:0;
+    top:450px;
+    text-transform:inherit !important;
+    background-color:#ff7779;
+    color:white;
+    width:579px;
+}
+
+.search > button:hover{
+    color:#ff7779;
+    background-color:white;
+    border:1px solid #ff7779;
+}
